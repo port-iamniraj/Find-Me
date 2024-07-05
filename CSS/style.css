@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game-container{
+    width: 95vw;
+    height: 90vh;
+    border: 2px solid #333;
+    margin: 5vh auto;
+    position: relative;
+}
+.player1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+.player2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+}
+.message-box {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #000;
+    padding: 10px;
+    display: none;
+    font-size: 20rem;
+    text-align: center;
+}
+.hiding-spot {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    /* background-image: url('hiding-spot.png'); */
+    /* background-size: cover; */
+    background-color: green;
+}
+
+#hiding-spot1 {
+    top: 100px;
+    left: 200px;
+}
+
+#hiding-spot2 {
+    top: 300px;
+    left: 400px;
+}
