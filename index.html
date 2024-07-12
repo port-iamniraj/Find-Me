@@ -15,13 +15,16 @@
 </head>
 
 <body>
-    <div>
+    <main class="main-box">
         <h1 class="game-heading">Find Me</h1>
         <div class="user-input-box">
             <form class="form" action="./game.html" method="GET">
-                <input type="text" id="name" name="name" placeholder="Enter Your Name">
-                <label for="character">Select a character:</label>
+                <div class="input-box">
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                    <input class="submit" type="submit" value="Start">
+                </div>
 
+                <label for="character">Select a character:</label>
                 <div class="char">
                     <label>
                         <input type="radio" name="character" value="character1">
@@ -32,12 +35,10 @@
                         <img src="./IMAGES/Characters/free_overview2.png" alt="Character 2">
                     </label>
                 </div>
-
-                <input class="submit" type="submit" value="Start game">
             </form>
         </div>
-        <canvas></canvas>
-    </div>
+    </main>
+    <canvas></canvas>
 </body>
 
 </html>
